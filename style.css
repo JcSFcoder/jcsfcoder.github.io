@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  width: 100%;
+	font-family: roboto mono;
+}
+
+#content{
+	
+	flex-grow: 5;
+}
+
+#profile{
+
+	flex-grow: 1;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content:center;
+	padding:1em;
+}
+
+body{
+	display:flex;
+}
+
+#profile_img{
+	width: 250px;
+	border-radius:100%;
+	
+}
+
+.title{
+	padding-left:1em;
+	padding-top:1em;
+	color:rgb(240,240,240);
+}
